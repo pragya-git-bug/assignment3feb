@@ -1,0 +1,36 @@
+Assignment 3rd feb
+
+Answer1
+In Java, strings are objects of the String class, which is part of the java.lang package. Strings in Java are immutable, meaning that once a string object is created, its content cannot be changed. If you want to modify a string, a new string object is created.
+
+Answer2
+In Java, there are several ways to represent strings, and different types of strings are used for different purposes. Here are some common types of strings in Java:
+
+String Literal
+String object
+string buffer
+string builder
+string pool
+
+Answer3
+In Java, you can create a String object in several ways:
+
+String Literal:
+String literalString = "Hello, Java!";
+String Constructor:
+String constructorString = new String("Hello, Java!");
+Using charAt Method:
+char singleChar = 'A';
+String charString = String.valueOf(singleChar);
+
+Answer4
+The string constant pool, often simply referred to as the "string pool," is a special area in the Java heap memory where string literals are stored. It is a part of the larger runtime constant pool, which also includes constants other than strings.
+
+Answer5
+Mutable Strings:
+
+A mutable object is one whose state (the data it represents) can be modified after it is created. For strings, mutability means that the content of the string can be changed. In Java, the StringBuilder and StringBuffer classes provide mutable strings.
+An immutable object is one whose state cannot be changed after it is created. For strings, immutability means that the content of the string cannot be modified. In Java, the String class provides immutable strings.
+
+Answer6
+the String Constant Pool is a pool of string literals that are maintained separately from the heap memory, where objects (including String objects) are typically allocated. It's a special area dedicated to storing string literals to promote reusability and memory efficiency.
